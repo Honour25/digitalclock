@@ -1,0 +1,260 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: grid;
+    height: 100%;
+    grid-template-rows: 120px 1fr;
+}
+.header{
+    background-color: rgb(2, 20, 34);
+}
+#amazon{
+    color: #eeeeee;
+    text-align: center;
+    padding: 40px;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 80px;
+}
+.clock-time{
+    position: absolute;
+    top: 415px;
+    left: 225px;
+    font-size: 45px;
+    color: #eeeeee;
+
+}
+.clock-ampm{
+    position: absolute;
+    top: 425px;
+    left: 347px;
+    font-size: 35px;
+    color: orange;
+}
+#fitbit{
+    padding-bottom: 30px;
+    font-size: 40px;
+}
+#you{
+    padding-bottom: 25px;
+    font-size: 15px;
+    font-weight: lighter;
+}
+#button1{
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: #333333;
+    cursor: pointer;
+    border: 1px solid #eeeeee;
+}
+#button2{
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgb(241, 180, 180);
+    cursor: pointer;
+    border: 1px solid #eeeeee;
+}
+#button3{
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: rgb(55, 41, 167);
+    cursor: pointer;
+    border: 1px solid #eeeeee;
+}
+#button4{
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgb(212, 59, 4);
+    cursor: pointer;
+    border: 1px solid #eeeeee;
+}
+#button5{
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+}
+#button6{
+    width: 120px;
+    height: 40px;
+    margin: 10px;
+    font-size: 15px;
+}
+#button7{
+    width: 170px;
+    height: 60px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: orangered;
+    border: 1px solid #eeeeee;
+    border-radius: 15px;
+    margin-top: 25px;
+}
+#button7:hover{
+    font-size: 22px;
+}
+
+
+
+@media only screen and (max-width: 1280px){
+    .clock-time{
+        position: absolute;
+        top: 415px;
+        left: 215px;
+        font-size: 50px;
+        color: #eeeeee;
+    
+    }
+    .clock-ampm{
+        position: absolute;
+        top: 425px;
+        left: 320px;
+        font-size: 40px;
+        color: orange;
+    }
+}
+@media only screen and (max-width: 1239px){
+    .clock-time{
+        position: absolute;
+        top: 415px;
+        left: 205px;
+        font-size: 50px;
+        color: #eeeeee;
+    
+    }
+    .clock-ampm{
+        position: absolute;
+        top: 425px;
+        left: 310px;
+        font-size: 40px;
+        color: orange;
+    }
+}
+@media only screen and (max-width: 1195px){
+    .clock-time{
+        position: absolute;
+        top: 415px;
+        left: 192px;
+        font-size: 50px;
+        color: #eeeeee;
+    
+    }
+    .clock-ampm{
+        position: absolute;
+        top: 425px;
+        left: 297px;
+        font-size: 40px;
+        color: orange;
+    }
+}
+@media only screen and (max-width: 1000px){
+    .clock-time{
+        position: absolute;
+        top: 415px;
+        left: 165px;
+        font-size: 50px;
+        color: #eeeeee;
+    
+    }
+    .clock-ampm{
+        position: absolute;
+        top: 425px;
+        left: 270px;
+        font-size: 40px;
+        color: orange;
+    }
+}
+@media only screen and (max-width: 900px){
+    .main{
+        display: grid;
+    }
+    .smartwatch{
+        text-align: center;
+    }
+    .div2{
+        text-align: center;
+    }
+    .clock-time{
+        position: absolute;
+        top: 415px;
+        left: 365px;
+        font-size: 50px;
+        color: #eeeeee;
+    
+    }
+    .clock-ampm{
+        position: absolute;
+        top: 425px;
+        left: 468px;
+        font-size: 40px;
+        color: orange;
+    }
+}
+@media only screen and (max-width: 768px){
+    .clock-time{
+        position: absolute;
+        top: 415px;
+        left: 295px;
+        font-size: 50px;
+        color: #eeeeee;
+    
+    }
+    .clock-ampm{
+        position: absolute;
+        top: 425px;
+        left: 400px;
+        font-size: 40px;
+        color: orange;
+    }
+    #you{
+        padding-bottom: 30px;
+        font-size: 18px;
+        font-weight: lighter;
+        line-height: 30px;
+    }
+    h2{
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+}
+@media only screen and (max-width: 390px){
+    .clock-time{
+        position: absolute;
+        top: 415px;
+        left: 165px;
+        font-size: 50px;
+        color: #eeeeee;
+    
+    }
+    .clock-ampm{
+        position: absolute;
+        top: 425px;
+        left: 270px;
+        font-size: 40px;
+        color: orange;
+    }
+    #button5{
+        width: 100px;
+        height: 40px;
+        font-size: 20px;
+    }
+    #button6{
+        width: 120px;
+        height: 40px;
+        margin: 10px;
+        font-size: 20px;
+    }
+}
