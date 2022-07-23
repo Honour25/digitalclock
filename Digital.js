@@ -55,6 +55,7 @@ let smartImg = document.getElementById('image');
 
 btn1.onclick = function() {
     smartImg.src = 'smartwatch black.png';
+    
 }
 btn2.onclick = function() {
     smartImg.src = 'smartwatch2.png';
